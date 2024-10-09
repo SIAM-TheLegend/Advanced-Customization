@@ -39,10 +39,10 @@ JS string (''/``) values
 } */
 
 /* Scrollbar transparent by default, will be visible on hover */
-.monaco-editor {
-  --vscode-scrollbarSlider-background: #4e566600;
+/* .monaco-editor { */
+  /* --vscode-scrollbarSlider-background: #4e566600; */
   /* transition: background-color 0.3s ease-in-out; */
-}
+/* } */
 
 /* Bracket colors */
 .monaco-editor .bracket-highlighting-0 {
