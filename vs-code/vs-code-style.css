@@ -86,9 +86,9 @@ JS string (''/``) values
   backdrop-filter: blur(3px) !important;
   border-radius: 18px !important;
 } */
-/* .monaco-list-rows {
+.monaco-list-rows {
   background: transparent !important;
-} */
+}
 
 /* Command palette text input */
 .quick-input-filter .monaco-inputbox {
