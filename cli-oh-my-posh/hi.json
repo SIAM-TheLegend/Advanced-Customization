@@ -5,18 +5,18 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#047857",
+          "foreground": "#D6DEEB",
           "style": "plain",
-          "template": "\u256d\u2500",
+          "template": "\u2554\u2550",
           "type": "text"
         },
         {
-          "background": "#43535e",
-          "foreground": "#86f7d5",
-          "leading_diamond": "<#43535E,transparent>\ue0b6</>",
+          "background": "#26BDBB",
+          "foreground": "#0C212F",
+          "leading_diamond": "<transparent,#26BDBB>\ue0b0</>",
           "properties": {
             "folder_icon": "...",
-            "folder_separator_icon": "<#86F7D5> \ue0b1 </>",
+            "folder_separator_icon": "<transparent> \ue0b1 </>",
             "home_icon": "\ueb06",
             "style": "agnoster_short"
           },
@@ -28,7 +28,7 @@
         {
           "foreground": "#94eece",
           "properties": {
-            "time_format": "<b> <#66B2B2>\u2665</> <#D6DEEB>3:04PM</> <#79DFE1>|</> 2 Jan, Monday</b>"
+            "time_format": "<b> <#66B2B2>\uf002</> <#D6DEEB>3:04PM</> <#79DFE1>|</> 2 Jan, Monday</b>"
           },
           "style": "plain",
           "template": "{{ .CurrentDate | date .Format }}",
@@ -55,7 +55,7 @@
           "type": "node"
         },
         {
-          "background": "#467daa",
+          "background": "#306998",
           "foreground": "#FFE873",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
@@ -171,50 +171,46 @@
           "trailing_diamond": "\ue0b4",
           "type": "kubectl"
         },
-        
+        {
+          "background": "#b2bec3",
+          "foreground": "#222222",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "<transparent,background>\ue0b2</>",
+          "properties": {
+            "linux": "\ue712",
+            "macos": "\ue711",
+            "windows": "\ue70f"
+          },
+          "style": "diamond",
+          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
+          "type": "os"
+        },
         {
           "background": "#f36943",
-          "background_templates": ["{{if eq \"Charging\" .State.String}}#006666{{end}}", "{{if eq \"Discharging\" .State.String}}#997a00{{end}}", "{{if eq \"Full\" .State.String}}#33DD2D{{end}}"],
-          "foreground": "#eeeeee",
+          "background_templates": ["{{if eq \"Charging\" .State.String}}#b8e994{{end}}", "{{if eq \"Discharging\" .State.String}}#fff34e{{end}}", "{{if eq \"Full\" .State.String}}#33DD2D{{end}}"],
+          "foreground": "#262626",
+          "invert_powerline": true,
+          "powerline_symbol": "\ue0b2",
           "properties": {
             "charged_icon": "\uf240 ",
             "charging_icon": "\uf1e6 ",
             "discharging_icon": "\ue234 "
           },
-          "style": "diamond",
-          "leading_diamond": "\ue0b6",
-          "trailing_diamond": "<transparent,background>\ue0b2</>",
+          "style": "powerline",
           "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295 ",
           "type": "battery"
         },
         {
-          "style": "diamond",
-          "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,background> \ue0b2</>",
-          "foreground": "#ffffff",
-          "background": "#6a9793",
-          "properties": {
-            "mapped_shell_names": {
-              "pwsh": "Shell",
-              "powershell": "Shell",
-              "cmd": "Cmd",
-              "bash": "Bash"
-            }
-          },
-          "type": "shell",
-          "template": " \ue795 {{ .Name }}"
-        },
-        {
-          "background": "#4a6572",
+          "background": "#40c4ff",
           "foreground": "#ffffff",
           "invert_powerline": true,
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "\ue0b4",
           "properties": {
-            "time_format": "2 Monday,3:04"
+            "time_format": "_2,15:04"
           },
           "style": "diamond",
           "template": " \uf073 {{ .CurrentDate | date .Format }} ",
+          "trailing_diamond": "\ue0b4",
           "type": "time"
         }
       ],
@@ -225,9 +221,9 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#047857",
+          "foreground": "#21c7c7",
           "style": "plain",
-          "template": "\u2570\u2500\u2500\u2500",
+          "template": "\u255a\u2550",
           "type": "text"
         },
         {

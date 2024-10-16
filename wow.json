@@ -1,0 +1,97 @@
+{
+  "alignment": "left",
+  "segments": [
+    {
+      "background": "#0077c2",
+      "foreground": "#ffffff",
+      "leading_diamond": "\u2554\u2550\ue0b6",
+      "style": "diamond",
+      "template": "\uf120 {{ .Name }} ",
+      "type": "shell"
+    },
+
+
+
+
+
+
+    {
+      "background": "#0C212F",
+      "foreground": "#FFFFFF",
+      "leading_diamond": "\ue0b6",
+      "style": "diamond",
+      "template": " {{ .Icon }} ",
+      "trailing_diamond": "\ue0b0",
+      "type": "os"
+    },
+    {
+      "background": "#DE2121",
+      "foreground": "#FFFFFF",
+      "leading_diamond": "<transparent,#DE2121>\ue0b0</>",
+      "style": "diamond",
+      "template": " \uf0e7 ",
+      "trailing_diamond": "\ue0b0",
+      "type": "root"
+    },
+    {
+      "background": "#26BDBB",
+      "foreground": "#0C212F",
+      "leading_diamond": "<transparent,#26BDBB>\ue0b0</>",
+      "properties": {
+        "folder_icon": "...",
+        "folder_separator_icon": "<transparent> \ue0b1 </>",
+        "home_icon": "\ueb06",
+        "style": "agnoster_short"
+      },
+      "style": "diamond",
+      "template": " {{ .Path }} ",
+      "trailing_diamond": "\ue0b0",
+      "type": "path"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "background": "#ef5350",
+      "foreground": "#FFFB38",
+      "style": "diamond",
+      "template": "<parentBackground>\ue0b0</> \uf292 ",
+      "type": "root"
+    },
+    {
+      "background": "#FF9248",
+      "foreground": "#2d3436",
+      "powerline_symbol": "\ue0b0",
+      "properties": {
+        "folder_icon": " \uf07b ",
+        "home_icon": "\ue617",
+        "style": "folder"
+      },
+      "style": "powerline",
+      "template": " \uf07b\uea9c {{ .Path }} ",
+      "type": "path"
+    },
+    {
+      "background": "#83769c",
+      "foreground": "#ffffff",
+      "properties": {
+        "style": "roundrock",
+        "threshold": 0
+      },
+      "style": "diamond",
+      "template": " \ueba2 {{ .FormattedMs }}\u2800",
+      "trailing_diamond": "\ue0b4",
+      "type": "executiontime"
+    }
+  ],
+  "type": "prompt"
+},
