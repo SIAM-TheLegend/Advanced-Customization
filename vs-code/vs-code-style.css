@@ -40,8 +40,8 @@ JS string (''/``) values
 
 /* Scrollbar transparent by default, will be visible on hover */
 /* .monaco-editor { */
-  /* --vscode-scrollbarSlider-background: #4e566600; */
-  /* transition: background-color 0.3s ease-in-out; */
+/* --vscode-scrollbarSlider-background: #4e566600; */
+/* transition: background-color 0.3s ease-in-out; */
 /* } */
 
 /* Bracket colors */
@@ -61,11 +61,17 @@ JS string (''/``) values
   color: pink !important;
 }
 
+/* Arrow buttons on the left of pallatte box */
+a.codicon-arrow-left,
+a.codicon-arrow-right {
+  display: none !important;
+}
+
 /* Tooltip box style */
 .monaco-editor-hover,
 .monaco-hover {
-  font-family: 'Comic Sans MS';
-  box-shadow: 0px 8px 32px rgba(0, 0, 0, .40) !important;
+  font-family: "Comic Sans MS";
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.4) !important;
   padding: 6px !important;
   background-image: linear-gradient(to bottom, #2f2f3d 0%, #252631 100%) !important;
   backdrop-filter: blur(3px) !important;
@@ -113,5 +119,5 @@ JS string (''/``) values
 
 /* Command palette's input box placeholder. */
 .monaco-inputbox input::placeholder {
-  color: rgba(255, 255, 255, .3) !important;
+  color: rgba(255, 255, 255, 0.3) !important;
 }

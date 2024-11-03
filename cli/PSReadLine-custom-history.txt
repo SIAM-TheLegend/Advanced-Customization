@@ -1,0 +1,44 @@
+git init
+git pull
+git add .
+git commit -m ""
+git push
+
+$PROFILE
+. $PROFILE
+
+Get-PSReadLineOption
+(Get-PSReadlineOption).HistorySavePath
+
+winget upgrade
+
+npm install
+npm run start
+npm run dev
+npm run build
+
+deno install
+deno add
+deno task start
+deno task dev
+deno task build
+
+deno fmt --watch
+deno lint --watch
+deno test --watch
+deno bench
+
+deployctl deploy
+deployctl deployments list
+deployctl deployments show
+
+deployctl projects list
+deployctl projects show
+
+deno run -A npm:create-vite@latest my-vite-app
+deno run -A npm:create-next-app@latest my-next-app
+
+cls
+clear
+exit
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
