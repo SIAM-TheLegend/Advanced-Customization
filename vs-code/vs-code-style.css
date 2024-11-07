@@ -1,36 +1,46 @@
 /* Regular Texts */
 /* Punctuations (dot, comma, semicolon) except strings ('') */
-/* .mtk1 {
-  color: #ffffff !important;
+.mtk1 {
+  /* color: #ffffff !important; */
+  /* text-shadow: #ccccccbb 1px 0 4px !important; */
+}
+
+.mtk3 {
+  color: #e9e793 !important;
+  text-shadow: #eeec6fd0 1px 0 4px !important;
+}
+
+/* .mtk4 {
+  color: #da98ee !important;
+  text-shadow: #c678ddbb 1px 0 4px !important;
 } */
 
-/* All comments */
-/* .mtk3 {
-  color: #367067de !important;
+/* All text signs and legatures ( =, >, < ) */
+.mtk4,
+.mtk4 {
+  color: lightgreen !important;
+  text-shadow: #ade983ce 1px 0 4px !important;
+}
+
+/* .mtk5 {
+  color: #d19a66 !important;
+  text-shadow: #f0b985bb 1px 0 4px !important;
 } */
 
-/* HTML tags
-JS variable Names
-.mtk5 {
-  color: #00e8c6 !important;
-} */
-
-/* JS numbers
-.mtk6 {
+/* .mtk6 {
   color: #f39c12 !important;
 } */
 
-/* HTML atrribute names
-JS function (regular/arrow) and DOM and Method names
+/* HTML atrribute names */
+/* JS function (regular/arrow) and DOM and Method names */
 .mtk7 {
-  color: #ffe66d !important;
-} */
+  color: #7cc4ff !important;
+  text-shadow: #5ba5e0aa 1px 0 4px !important;
+}
 
-/* JS data types (let/const)
-JS functions (regular/async) and conditionals (if-else)
 .mtk9 {
   color: #c74ded !important;
-} */
+}
 
 /* HTML attribute values
 JS string (''/``) values
@@ -46,19 +56,24 @@ JS string (''/``) values
 
 /* Bracket colors */
 .monaco-editor .bracket-highlighting-0 {
-  color: rgb(0, 162, 255) !important;
+  color: #209bff !important;
+  text-shadow: #0073d1bb 1px 0 4px !important;
 }
 .monaco-editor .bracket-highlighting-1 {
-  color: orange !important;
+  color: #ffc04c !important;
+  text-shadow: #ffc75ebb 1px 0 4px !important;
 }
 .monaco-editor .bracket-highlighting-2 {
-  color: yellow !important;
+  color: #ffff00 !important;
+  text-shadow: #efff64da 1px 0 4px !important;
 }
 .monaco-editor .bracket-highlighting-3 {
-  color: darkturquoise !important;
+  color: #7ffdff !important;
+  text-shadow: #51dcdfbb 1px 0 4px !important;
 }
 .monaco-editor .bracket-highlighting-4 {
-  color: pink !important;
+  color: #ffc0cb !important;
+  text-shadow: #ffd0d8fb 1px 0 4px !important;
 }
 
 /* Arrow buttons on the left of pallatte box */
