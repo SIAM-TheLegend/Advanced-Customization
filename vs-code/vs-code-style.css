@@ -1,79 +1,72 @@
 /* Regular Texts */
 /* Punctuations (dot, comma, semicolon) except strings ('') */
-.mtk1 {
-  /* color: #ffffff !important; */
-  /* text-shadow: #ccccccbb 1px 0 4px !important; */
-}
-
-.mtk3 {
-  color: #e9e793 !important;
-  text-shadow: #eeec6fd0 1px 0 4px !important;
-}
-
-/* .mtk4 {
-  color: #da98ee !important;
-  text-shadow: #c678ddbb 1px 0 4px !important;
+/* .mtk1 {
+  color: #ffffff !important;
+  text-shadow: #ccccccbb 0 0 4px !important;
 } */
 
-/* All text signs and legatures ( =, >, < ) */
-.mtk4,
-.mtk4 {
-  color: lightgreen !important;
-  text-shadow: #ade983ce 1px 0 4px !important;
+.mtk6 {
+  color: #8cc8ff !important;
+  backdrop-filter: blur(5px);
+  text-shadow: 0 0 5px !important;
 }
 
-/* .mtk5 {
-  color: #d19a66 !important;
-  text-shadow: #f0b985bb 1px 0 4px !important;
-} */
-
-/* .mtk6 {
-  color: #f39c12 !important;
-} */
-
-/* HTML atrribute names */
 /* JS function (regular/arrow) and DOM and Method names */
-.mtk7 {
+/* .mtk7 {
   color: #7cc4ff !important;
-  text-shadow: #5ba5e0aa 1px 0 4px !important;
+  text-shadow: #5595c9aa 0 0 4px !important;
 }
 
-.mtk9 {
-  color: #c74ded !important;
+.mtk10 {
+  color: #00dcdc !important;
+  text-shadow: 0 0 5px !important;
 }
 
 /* HTML attribute values
-JS string (''/``) values
 .mtk11 {
   color: #96e072 !important;
 } */
 
-/* Scrollbar transparent by default, will be visible on hover */
-/* .monaco-editor { */
-/* --vscode-scrollbarSlider-background: #4e566600; */
-/* transition: background-color 0.3s ease-in-out; */
-/* } */
-
 /* Bracket colors */
 .monaco-editor .bracket-highlighting-0 {
-  color: #209bff !important;
-  text-shadow: #0073d1bb 1px 0 4px !important;
+  color: #0890ff !important;
+  text-shadow: #6dbdffdd 0 0 5px !important;
 }
 .monaco-editor .bracket-highlighting-1 {
-  color: #ffc04c !important;
-  text-shadow: #ffc75ebb 1px 0 4px !important;
+  color: #ffb223 !important;
+  text-shadow: #ffec3d 0 0 5px !important;
 }
 .monaco-editor .bracket-highlighting-2 {
   color: #ffff00 !important;
-  text-shadow: #efff64da 1px 0 4px !important;
+  text-shadow: #efff64dd 0 0 5px !important;
 }
 .monaco-editor .bracket-highlighting-3 {
   color: #7ffdff !important;
-  text-shadow: #51dcdfbb 1px 0 4px !important;
+  text-shadow: 0 0 5px !important;
 }
 .monaco-editor .bracket-highlighting-4 {
   color: #ffc0cb !important;
-  text-shadow: #ffd0d8fb 1px 0 4px !important;
+  text-shadow: #ffd0d8fb 0 0 5px !important;
+}
+.monaco-editor .bracket-highlighting-5 {
+  color: #0890ff !important;
+  text-shadow: #6dbdffdd 0 0 5px !important;
+}
+.monaco-editor .bracket-highlighting-6 {
+  color: #ffb223 !important;
+  text-shadow: #ffec3d 0 0 5px !important;
+}
+.monaco-editor .bracket-highlighting-7 {
+  color: #ffff00 !important;
+  text-shadow: #efff64dd 0 0 5px !important;
+}
+.monaco-editor .bracket-highlighting-8 {
+  color: #7ffdff !important;
+  text-shadow: 0 0 5px !important;
+}
+.monaco-editor .bracket-highlighting-9 {
+  color: #ffc0cb !important;
+  text-shadow: #ffd0d8fb 0 0 5px !important;
 }
 
 /* Arrow buttons on the left of pallatte box */
@@ -107,9 +100,6 @@ a.codicon-arrow-right {
   backdrop-filter: blur(3px) !important;
   border-radius: 18px !important;
 } */
-.monaco-list-rows {
-  background: transparent !important;
-}
 
 /* Command palette text input */
 .quick-input-filter .monaco-inputbox {
@@ -119,6 +109,11 @@ a.codicon-arrow-right {
   font-size: 15px !important;
   margin-bottom: 16px !important;
   border-radius: 40px !important;
+}
+
+/* Command palette's input box placeholder. */
+.monaco-inputbox input::placeholder {
+  color: rgba(255, 255, 255, 0.3) !important;
 }
 
 /* Command palette making center align */
@@ -132,7 +127,7 @@ a.codicon-arrow-right {
   backdrop-filter: blur(8px);
 } */
 
-/* Command palette's input box placeholder. */
-.monaco-inputbox input::placeholder {
-  color: rgba(255, 255, 255, 0.3) !important;
+/* Icon of top left corner of window */
+.window-appicon {
+  background-image: url('data:image/svg+xml,<svg width="256" height="256" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="a" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256"><path fill-rule="evenodd" clip-rule="evenodd" d="M181.534 254.252a15.934 15.934 0 0 0 12.7-.488l52.706-25.361a16.002 16.002 0 0 0 9.06-14.42V42.018c0-6.15-3.522-11.754-9.06-14.42L194.234 2.238a15.939 15.939 0 0 0-18.185 3.097l-100.9 92.052-43.95-33.361a10.655 10.655 0 0 0-13.614.605L3.49 77.453c-4.648 4.227-4.653 11.54-.011 15.774L41.593 128 3.478 162.773c-4.642 4.235-4.637 11.547.011 15.775l14.097 12.822a10.655 10.655 0 0 0 13.613.606l43.95-33.362 100.9 92.053a15.915 15.915 0 0 0 5.485 3.585Zm10.505-184.367L115.479 128l76.56 58.115V69.885Z" fill="%23fff"/></mask><g mask="url(%23a)"><path d="M246.94 27.638 194.193 2.241a15.947 15.947 0 0 0-18.194 3.092L3.324 162.773c-4.645 4.235-4.64 11.547.011 15.775L17.44 191.37a10.667 10.667 0 0 0 13.622.606l207.941-157.75c6.976-5.291 16.996-.316 16.996 8.44v-.612a16 16 0 0 0-9.059-14.416Z" fill="%230065A9"/><g filter="url(%23b)"><path d="m246.94 228.362-52.747 25.397a15.95 15.95 0 0 1-18.194-3.092L3.324 93.227c-4.645-4.234-4.64-11.547.011-15.775L17.44 64.63a10.667 10.667 0 0 1 13.622-.605l207.941 157.748c6.976 5.292 16.996.317 16.996-8.44v.613a16.001 16.001 0 0 1-9.059 14.416Z" fill="%23007ACC"/></g><g filter="url(%23c)"><path d="M194.196 253.763A15.955 15.955 0 0 1 176 250.667c5.904 5.904 16 1.722 16-6.628V11.961c0-8.35-10.096-12.532-16-6.628a15.955 15.955 0 0 1 18.196-3.097L246.934 27.6A16 16 0 0 1 256 42.017v171.965a16 16 0 0 1-9.066 14.419l-52.738 25.361Z" fill="%231F9CF0"/></g><path fill-rule="evenodd" clip-rule="evenodd" d="M181.378 254.252a15.936 15.936 0 0 0 12.699-.488l52.706-25.362a16 16 0 0 0 9.061-14.419V42.018c0-6.15-3.522-11.754-9.06-14.42L194.077 2.238a15.939 15.939 0 0 0-18.185 3.096l-100.9 92.053-43.95-33.361a10.655 10.655 0 0 0-13.613.605L3.333 77.452c-4.648 4.228-4.653 11.54-.011 15.775L41.436 128 3.322 162.773c-4.642 4.235-4.637 11.547.011 15.775L17.43 191.37a10.655 10.655 0 0 0 13.614.606l43.95-33.362 100.899 92.053a15.919 15.919 0 0 0 5.486 3.585Zm10.505-184.367L115.323 128l76.56 58.115V69.885Z" fill="url(%23d)" style="mix-blend-mode:overlay" opacity=".25"/></g><defs><filter id="b" x="-21.49" y="40.523" width="298.822" height="236.149" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset/><feGaussianBlur stdDeviation="10.667"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/><feBlend mode="overlay" in2="BackgroundImageFix" result="effect1_dropShadow"/><feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/></filter><filter id="c" x="154.667" y="-20.674" width="122.667" height="297.347" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset/><feGaussianBlur stdDeviation="10.667"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/><feBlend mode="overlay" in2="BackgroundImageFix" result="effect1_dropShadow"/><feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/></filter><linearGradient id="d" x1="127.844" y1=".66" x2="127.844" y2="255.34" gradientUnits="userSpaceOnUse"><stop stop-color="%23fff"/><stop offset="1" stop-color="%23fff" stop-opacity="0"/></linearGradient></defs></svg>') !important;
 }

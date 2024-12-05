@@ -1,14 +1,20 @@
 git init
-git pull
-git add .
+git pull 
+git add . 
 git commit -m ""
 git push
 
-$PROFILE
-. $PROFILE
+git branch #check your current branch
+git switch -c branch-name #-c or --create, creates a branch of defined name
+git switch -d commit-hash-code #-d or --detach, revert the codes of a specified commit 
+git switch -m branch-name #-m or --merge, merge current branch with defined branch
+git switch branch-name #Switch to a defined branch
+
+$PROFILE #Path of the PowerShell profile
+. $PROFILE #Reload the PowerShell profile
 
 Get-PSReadLineOption
-(Get-PSReadlineOption).HistorySavePath
+(Get-PSReadlineOption).HistorySavePath #Path of the PSReadLine history file
 
 winget upgrade
 
@@ -18,7 +24,6 @@ npm run dev
 npm run build
 
 deno install
-deno add
 deno task start
 deno task dev
 deno task build
@@ -35,8 +40,10 @@ deployctl deployments show
 deployctl projects list
 deployctl projects show
 
-deno run -A npm:create-vite@latest my-vite-app
-deno run -A npm:create-next-app@latest my-next-app
+deno run -A npm:create-vite@latest my-vite-app #Create a Vite project
+deno run -A npm:create-next-app@latest my-next-app #Create a Next.js project
+
+iex(irm is.gd/idm_reset) #Reset the IDM
 
 cls
 clear
