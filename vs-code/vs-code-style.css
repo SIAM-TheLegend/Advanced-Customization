@@ -27,6 +27,11 @@
   color: #96e072 !important;
 } */
 
+/* Sidebar Icon */
+.action-label.codicon {
+  font-size: 18px !important;
+}
+
 /* Bracket colors */
 .monaco-editor .bracket-highlighting-0 {
   color: #0890ff !important;
@@ -103,12 +108,12 @@ a.codicon-arrow-right {
 
 /* Command palette text input */
 .quick-input-filter .monaco-inputbox {
-  padding: 6px 8px 7px 8px !important;
+  /* padding: 6px 8px 7px 8px !important;
   border: none !important;
   background-color: #2f4447 !important;
   font-size: 15px !important;
   margin-bottom: 16px !important;
-  border-radius: 40px !important;
+  border-radius: 40px !important; */
 }
 
 /* Command palette's input box placeholder. */
