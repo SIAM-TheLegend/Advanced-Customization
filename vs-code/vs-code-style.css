@@ -102,14 +102,14 @@ a.codicon-arrow-right {
 } */
 
 /* Command palette text input */
-.quick-input-filter .monaco-inputbox {
-  /* padding: 6px 8px 7px 8px !important;
+/* .quick-input-filter .monaco-inputbox {
+  padding: 6px 8px 7px 8px !important;
   border: none !important;
   background-color: #2f4447 !important;
   font-size: 15px !important;
   margin-bottom: 16px !important;
-  border-radius: 40px !important; */
-}
+  border-radius: 40px !important;
+} */
 
 /* Command palette's input box placeholder. */
 .monaco-inputbox input::placeholder {
