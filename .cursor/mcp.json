@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "Sequential Thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    },
+    "Memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "env": {
+        "MEMORY_FILE_PATH": "E:/Tools/advanced-customizations/.cursor/memory.json"
+      }
+    },
+    "Browser Tools": {
+      "command": "npx",
+      "args": ["-y", "@agentdeskai/browser-tools-mcp@1.2.0"]
+    },
+    "Context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "Supabase": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@supabase/mcp-server-supabase@latest", "--access-token", "sbp_0b5e82caf64605b4bc3ef9b43517bd575eed5d02"]
+    },
+    "Fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    },
+    "Taskmaster": {
+      "command": "npx",
+      "args": ["-y", "task-master-ai"],
+      "env": {
+        "ANTHROPIC_API_KEY": "YOUR_ANTHROPIC_API_KEY_HERE",
+        "PERPLEXITY_API_KEY": "YOUR_PERPLEXITY_API_KEY_HERE",
+        "MODEL": "claude-3-7-sonnet-20250219",
+        "PERPLEXITY_MODEL": "sonar-pro",
+        "MAX_TOKENS": "64000",
+        "TEMPERATURE": "0.2",
+        "DEFAULT_SUBTASKS": "5",
+        "DEFAULT_PRIORITY": "medium"
+      }
+    }
+  }
+}
