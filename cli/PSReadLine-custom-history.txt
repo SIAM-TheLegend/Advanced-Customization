@@ -4,6 +4,12 @@ git add .
 git commit -m ""
 git push
 
+git rm -r --cached . #Remove the cached files from indexing
+
+git push --force #After deleteing any commit, you must do it before making any new commit
+git reset --soft HEAD~1 #Keep files but delete the last 1 (mentioned on HEAD~1) commit 
+git reset --hard HEAD~1 #Parmanently delete files of the last 1 (mentioned on HEAD~1) commit
+
 git branch #check your current branch
 git switch -c branch-name #-c or --create, creates a branch of defined name
 git switch -d commit-hash-code #-d or --detach, revert the codes of a specified commit 
@@ -22,6 +28,8 @@ npm install
 npm run start
 npm run dev
 npm run build
+
+npm view package version #See the latest version of the package available on online
 
 deno install
 deno task start
@@ -43,7 +51,10 @@ deployctl projects show
 deno run -A npm:create-vite@latest my-vite-app #Create a Vite project
 deno run -A npm:create-next-app@latest my-next-app #Create a Next.js project
 
+npx -y @agentdeskai/browser-tools-server@1.2.0
+
 iex(irm is.gd/idm_reset) #Reset the IDM
+irm https://massgrave.dev/ias | iex #Reset the IDM
 
 cls
 clear

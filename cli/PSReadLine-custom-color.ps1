@@ -1,1 +1,0 @@
-Set-PSReadLineOption -Colors @{ "InlinePrediction" = "#225B6E" }
